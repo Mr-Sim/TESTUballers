@@ -1,10 +1,8 @@
-/*header {
-    margin-top: -10px;
-    height: 50px;
-    width: 1900px;
-    background-color: #3d5e95;
-    padding: 0 200px 20px 2px;
-}*/
+*{
+    text-decoration:none;
+
+}
+
 header  {
     height: 50px;
     margin: 0;
@@ -44,6 +42,7 @@ header  {
 
 }
 
+
 html {
     font-size: 11px;
     font-family: 'Arial';
@@ -76,6 +75,7 @@ input{
     width: 140px;
     height: 25px;
     color: gray;
+    margin-bottom: 5px;
 }
 
 #bigform{
@@ -94,18 +94,11 @@ input{
     display: inline-block;
     list-style: none; /* nécessaire pour IE7 */
     margin-left:-40px;
-    width: 170px;
+    width: 180px;
     vertical-align: top;
     font-size: 8px;
 }
-#date3{
-    display: inline-block;
-    list-style: none; /* nécessaire pour IE7 */
-    margin-left:-20px;
-    width: 70px;
-    vertical-align: top;
-    font-size: 8px;
-}
+
 #register{
     display: block;
     width: 150px;
