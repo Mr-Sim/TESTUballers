@@ -48,6 +48,7 @@ function addUser($newUser)
     $dateNaissance = $newUser['annee']."-".$newUser['mois']."-".$newUser['jour'];
     $sexe = $newUser["sexe"];
 
+    //La première valeure insérée est NULL pour la colonne "iduser" de la base de donnée qui est en auto-incrémentation.
     $query = "INSERT INTO utilisateurs VALUES(NULL, '$nom', '$prenom', '$newLogin', '$newPwd', '$dateNaissance', '$sexe');";
     try{
         $prep = $pdo->prepare($query);

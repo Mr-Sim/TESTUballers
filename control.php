@@ -4,7 +4,6 @@
  * Il fait appel aux fonctions, traite les données renvoyées par le modèle et la vue, et envoie les informations à afficher à la vue.
  */
 require_once('model.php');
-require_once('connect-db.php');
 $informationError = "Erreur dans votre identifiant ou votre mot de passe";
 
 //On connecte un utilisateur si le bouton "Connexion" est cliqué et si les informations entrées sont valides.
@@ -19,10 +18,12 @@ if (isset($_POST['connection'])){
             // on redirige notre visiteur vers une page de notre section membre
             header ('location: index.php');
         }
+        //Si les paramètres entrés ne correspondent à aucun utilisateur.
         else{
             header ('location: index.php?informationError');
         }
     }
+    //Si des paramètres n'ont pas été renseignés.
     else{
         header ('location: index.php?informationError');
     }

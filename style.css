@@ -5,21 +5,22 @@
 
 header  {
     height: 50px;
-    margin: 0;
+    margin-bottom: 50px;
+    margin-top:-15px;
+    margin-left: -15px;
     background : #3d5e95; 
 }
 #conntext{
     color:white;
     font-size: 6.5px;
     font-weight: bold;
-    margin-bottom:2px;
+    margin-bottom:3px;
 }
 
 #connbar li{
         display: inline-block;
-        list-style: none; /* nécessaire pour IE7 */
-        margin-left:-20px;
-        width: 130px;
+        margin-left:0px;
+        width: 110px;
         vertical-align: top;
 }
 #formconn{
@@ -64,6 +65,7 @@ html {
 }
 #body{
     margin-left:20px;
+    margin-bottom: auto;
 
 }
 
@@ -92,7 +94,6 @@ input{
 }
 #date2 li{
     display: inline-block;
-    list-style: none; /* nécessaire pour IE7 */
     margin-left:-40px;
     width: 180px;
     vertical-align: top;
