@@ -3,7 +3,7 @@
 
 1) Effectuez un clone du repository dans le dossier 'www' de votre répertoire Laragon.
 2) Le dossier 'www' contient par défault un fichier 'index.php'. Si ce n'est pas déjà fait, supprimez ou renommez ce fichierr afin d'avoir l'accès au répertoire du site. 
-3) Télechargez PHPMyAdmin, Décompressez le dossier puis copiez le dans laragon/etc/apps et renommer le 'phpMyAdmin'.
+3) Télechargez PHPMyAdmin, décompressez le dossier, déplacez-le le dans laragon/etc/apps et le renommer en 'phpMyAdmin'.
 4) Exécutez Laragon.exe. Lorsque Laragon est ouvert, cliquer sur 'Démarrer' puis sur 'Base de données'.
 5) Une page de navigateur s'ouvre, et demande la connexion à PHPMyAdmin. L'identifiant par défault est 'root' sans mot de passe. Si vous utilisez d'autres identifiants, il faudra les  écrire dans le code du fichier 'connect-db.php' dans le répertoire du site. 
 6) Une fois connecté à PHPMyAdmin sur votre navigateur, cliquez sur 'Nouvelle base de données', donnez lui le nom 'utilisateurs_test', puis validez.
